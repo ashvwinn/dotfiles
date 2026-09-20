@@ -31,7 +31,7 @@ export PATH=$PATH:/home/ashvin/.spicetify
 eval "$(zoxide init zsh)"
 
 # try
-eval "$(/usr/bin/try init ~/src/tries)"
+eval "$(/usr/bin/try init ~/Work/tries)"
 
 # mise
 eval "$(mise activate zsh)"
@@ -44,6 +44,7 @@ alias cd="z"
 alias v="nvim"
 alias tmux-sessionizer="~/.local/bin/scripts/tmux-sessionizer"
 alias gl="git --no-pager log --oneline --graph --all --decorate -n 10"
+alias lg="lazygit"
 
 # opencode
 export PATH=/home/ashvin/.opencode/bin:$PATH
